@@ -1,0 +1,335 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Google Fonts */
+* {
+    margin: 0;
+    padding: 0;
+    /* line-height: 0; */
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.font-style {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.heading-tittle {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+}
+
+.summary {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 70%;
+    color: #0D1321;
+    line-height: 26px;
+}
+
+.btn-share {
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 20px 24px;
+    line-height: 0;
+}
+
+/* Nav-Styles-start */
+#nav {
+    padding: 30px 150px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav h4 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#nav .btn-download {
+    color: #0D1321;
+    background: #ffffff;
+    cursor: pointer;
+    border: 1px solid #0D1321;
+}
+
+/* Nav-Styles-End */
+/* Banner-Styles-Start */
+#banner {
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-container {
+    max-width: 998px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-container .banner-tittle h3 {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 32px 0 24px 0;
+}
+
+.banner-container .btn-banner {
+    color: #ffffff;
+    background: #0D1321;
+    border: 1px solid #0D1321;
+    margin: 32px 0 45px 0;
+}
+
+/* Banner-Styles-End */
+
+/* Web-development-Section */
+#web-development {
+    margin: 74px 0 90px 0;
+}
+
+.development-container {
+    padding: 80px 97px;
+}
+
+#web-development .web-tittle {
+    text-align: center;
+    max-width: 852px;
+    margin: 0 auto;
+}
+
+#web-development .web-tittle p {
+    margin-top: 24px;
+}
+
+.box-gap {
+    margin: 32px 0;
+}
+
+.development-container .item-box {
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-content {
+    max-width: 540px;
+}
+
+.development-container .item-box .padding-right {
+    padding-right: 110px;
+    max-width: 645px;
+}
+
+.item-box .box-content h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #0D1321;
+    opacity: 70%;
+}
+
+.item-box .box-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 16px 0 32px;
+}
+
+.item-box .box-content .learn-btn a {
+    border: 1px solid #0D1321;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+
+}
+
+.item-box .box-img {
+    max-width: 224px;
+}
+
+.item-box .box-img img {
+    width: 100%;
+}
+
+/* Web-development-Section */
+
+/* My-Inspiration-Section */
+.inspiration-container {
+    padding: 32px;
+}
+
+.inspiration-tittle {
+    text-align: center;
+    padding: 0 140px;
+}
+
+.inspiration-tittle p {
+    margin: 24px 0 48px 0;
+}
+
+.inspiration-container .video {
+    text-align: center;
+    padding: 32px;
+}
+
+/* My-Inspiration-Section */
+
+/* My-Current-Target-Section */
+#current-target {
+    margin: 151px 0 111px 0;
+}
+
+#current-target .current-content {
+    margin-bottom: 48px;
+    text-align: center;
+    padding: 0 144px;
+}
+
+#current-target .current-content p {
+    margin-top: 24px;
+}
+
+#current-target .target-box-card {
+    padding: 40px;
+}
+
+#current-target .change-color-fst {
+    background: rgba(255, 75, 30, 0.15);
+}
+
+#current-target .change-color-mid {
+    background: rgba(0, 77, 232, 0.15);
+    margin: 0 24px;
+}
+
+#current-target .change-color-three {
+    background: rgba(255, 221, 0, 0.15);
+}
+
+.card-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+#current-target .card-box h3 {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    color: #0D1321;
+}
+
+#current-target .card-box p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #0D1321;
+}
+
+#current-target .card-box a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0D1321;
+}
+
+/* My-Current-Target-Section */
+
+/* Main-Part-End */
+
+/* Footer-Part-Start */
+#footer-end {
+    margin: 50px 0 80px 0;
+}
+
+.footer-container {
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#footer-end .footer-containt {
+    text-align: center;
+    color: #ffffff;
+    /* max-width: 730px; */
+    /* margin: auto; */
+    padding: 64px 205px;
+}
+
+#footer-end .footer-containt h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+
+}
+
+#footer-end .footer-containt p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 16px 0 24px 0;
+}
+
+.footer-form input:focus-visible {
+    outline: none;
+}
+.footer-form input[type="text"] {
+    padding: 19px 20px;
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #ffffff;
+    border: none;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    border-radius: 8px;
+    width: 548px;
+}
+
+.footer-form input[type="submit"] {
+    padding: 17px 20px;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #ffffff;
+    border: none;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    border-radius: 8px;
+}
+.last-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+}
+.social-media-icon {
+    line-height: 0;
+}
+.social-media-icon a {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin: 0 7px;
+}
+/* Footer-Part-End */
