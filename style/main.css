@@ -268,7 +268,7 @@ a {
 /* Main-Part-End */
 
 /* Footer-Part-Start */
-#footer-end {
+.footer-end {
     margin: 50px 0 80px 0;
 }
 
@@ -279,20 +279,20 @@ a {
     background-size: cover;
 }
 
-#footer-end .footer-containt {
+.footer-end .footer-containt {
     text-align: center;
     color: #ffffff;
     padding: 64px 205px;
 }
 
-#footer-end .footer-containt h3 {
+.footer-end .footer-containt h3 {
     font-size: 32px;
     font-weight: 700;
     line-height: 36px;
 
 }
 
-#footer-end .footer-containt p {
+.footer-end .footer-containt p {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
