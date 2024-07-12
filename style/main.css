@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Google Fonts */
+
+/* All-common-CSS-Here */
 * {
     margin: 0;
     padding: 0;
-    /* line-height: 0; */
 }
 
 a {
@@ -42,8 +43,9 @@ a {
     font-weight: 600;
     border-radius: 8px;
     padding: 20px 24px;
-    /* line-height: 0; */
 }
+
+/* All-common-CSS-Here */
 
 /* Nav-Styles-start */
 #nav {
@@ -95,6 +97,7 @@ a {
     line-height: 48px;
     color: #0D1321;
 }
+
 .banner-summary {
     margin: 24px 0 32px 0;
 }
@@ -126,9 +129,11 @@ a {
 #web-development .web-tittle p {
     margin-top: 24px;
 }
+
 .all-items {
     margin-top: 48px;
 }
+
 .box-gap {
     margin: 32px 0;
 }
@@ -189,6 +194,7 @@ a {
     max-width: 852px;
     margin: 0 auto;
 }
+
 .inspiration-tittle p {
     margin-top: 24px;
 }
@@ -224,9 +230,11 @@ a {
 #current-target .change-color-fst {
     background: rgba(255, 75, 30, 0.15);
 }
+
 .target-logo {
     margin-bottom: 20px;
 }
+
 #current-target .change-color-mid {
     background: rgba(0, 77, 232, 0.15);
     margin: 0 24px;
