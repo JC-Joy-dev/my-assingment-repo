@@ -33,8 +33,7 @@ a {
 .summary {
     font-size: 16px;
     font-weight: 400;
-    opacity: 70%;
-    color: #0D1321;
+    color: rgb(13 19 33 / 70%);
     line-height: 26px;
 }
 
@@ -43,7 +42,7 @@ a {
     font-weight: 600;
     border-radius: 8px;
     padding: 20px 24px;
-    line-height: 0;
+    /* line-height: 0; */
 }
 
 /* Nav-Styles-start */
@@ -70,6 +69,7 @@ a {
 }
 
 /* Nav-Styles-End */
+
 /* Banner-Styles-Start */
 #banner {
     background-image: url(../assets/Hero-bg.png);
@@ -82,19 +82,27 @@ a {
     max-width: 998px;
     margin: 0 auto;
     text-align: center;
+    padding: 26px 0 45px 0;
+}
+
+.banner-content {
+    margin-top: 32px;
 }
 
 .banner-container .banner-tittle h3 {
     font-size: 48px;
     font-weight: 800;
-    margin: 32px 0 24px 0;
+    line-height: 48px;
+    color: #0D1321;
+}
+.banner-summary {
+    margin: 24px 0 32px 0;
 }
 
 .banner-container .btn-banner {
     color: #ffffff;
     background: #0D1321;
-    border: 1px solid #0D1321;
-    margin: 32px 0 45px 0;
+    border: none;
 }
 
 /* Banner-Styles-End */
@@ -117,7 +125,9 @@ a {
 #web-development .web-tittle p {
     margin-top: 24px;
 }
-
+.all-items {
+    margin-top: 48px;
+}
 .box-gap {
     margin: 32px 0;
 }
@@ -129,7 +139,8 @@ a {
 }
 
 .box-content {
-    max-width: 540px;
+    max-width: 477px;
+    padding: 11px 0 11px 0;
 }
 
 .development-container .item-box .padding-right {
@@ -172,22 +183,19 @@ a {
 /* Web-development-Section */
 
 /* My-Inspiration-Section */
-.inspiration-container {
-    padding: 32px;
-}
-
 .inspiration-tittle {
     text-align: center;
-    padding: 0 140px;
+    max-width: 852px;
+    margin: 0 auto;
 }
-
 .inspiration-tittle p {
-    margin: 24px 0 48px 0;
+    margin-top: 24px;
 }
 
 .inspiration-container .video {
     text-align: center;
     padding: 32px;
+    margin-top: 48px;
 }
 
 /* My-Inspiration-Section */
@@ -198,9 +206,9 @@ a {
 }
 
 #current-target .current-content {
-    margin-bottom: 48px;
+    max-width: 946px;
+    margin: 0 auto;
     text-align: center;
-    padding: 0 144px;
 }
 
 #current-target .current-content p {
@@ -227,6 +235,7 @@ a {
 .card-box {
     display: flex;
     justify-content: space-between;
+    margin-top: 48px;
 }
 
 #current-target .card-box h3 {
@@ -259,11 +268,10 @@ a {
 }
 
 .footer-container {
-    background-image: url(../assets/handshake.jpg);
+    background-image: linear-gradient(358deg, rgb(0 0 0 / 60%) 0%, rgb(0 0 0 / 50%) 50%, rgb(0 0 0 / 60%) 100%), url(../assets/handshake.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
 
 #footer-end .footer-containt {
@@ -291,6 +299,7 @@ a {
 .footer-form input:focus-visible {
     outline: none;
 }
+
 .footer-form input[type="text"] {
     padding: 19px 20px;
     color: #0D1321;
@@ -317,19 +326,23 @@ a {
     font-style: normal;
     border-radius: 8px;
 }
+
 .last-part {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 32px 0;
 }
+
 .social-media-icon {
     line-height: 0;
 }
+
 .social-media-icon a {
     width: 36px;
     height: 36px;
     border-radius: 50%;
     margin: 0 7px;
 }
+
 /* Footer-Part-End */
