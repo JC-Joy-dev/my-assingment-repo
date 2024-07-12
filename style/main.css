@@ -103,6 +103,7 @@ a {
     color: #ffffff;
     background: #0D1321;
     border: none;
+    cursor: pointer;
 }
 
 /* Banner-Styles-End */
@@ -217,12 +218,15 @@ a {
 
 #current-target .target-box-card {
     padding: 40px;
+    width: 100%;
 }
 
 #current-target .change-color-fst {
     background: rgba(255, 75, 30, 0.15);
 }
-
+.target-logo {
+    margin-bottom: 20px;
+}
 #current-target .change-color-mid {
     background: rgba(0, 77, 232, 0.15);
     margin: 0 24px;
@@ -250,6 +254,7 @@ a {
     font-weight: 400;
     line-height: 26px;
     color: #0D1321;
+    margin: 8px 0 24px 0;
 }
 
 #current-target .card-box a {
@@ -277,8 +282,6 @@ a {
 #footer-end .footer-containt {
     text-align: center;
     color: #ffffff;
-    /* max-width: 730px; */
-    /* margin: auto; */
     padding: 64px 205px;
 }
 
@@ -325,6 +328,7 @@ a {
     font-optical-sizing: auto;
     font-style: normal;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .last-part {
