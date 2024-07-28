@@ -6,10 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first Assingment</title>
     <link rel="stylesheet" href="style/main.css">
+    <style>
+        .hide {
+            display: none;
+        }
+
+        /* Responsive-Code-Start */
+        @media screen and (max-width: 576px) {
+            .current-target-banner {
+                padding: 15px;
+            }
+            #current-target .target-box-card {
+                padding: 10px;
+                text-align: center;
+                width: calc(100% - 30px);
+            }
+
+            
+
+            .heading-tittle {
+                font-size: 24px;
+            }
+
+            #current-target .current-content p {
+                margin-top: 15px;
+            }
+
+            .summary {
+                font-size: 14px;
+                line-height: 20px;
+            }
+
+            .card-box {
+                flex-direction: column;
+                gap: 15px;
+                margin-top: 35px;
+            }
+
+
+            #current-target .card-box h3 {
+                font-size: 20px;
+                line-height: 15px;
+            }
+
+            #current-target .card-box p {
+                font-size: 13px;
+                line-height: 17px;
+                margin: 8px 0 15px 0;
+            }
+
+            #current-target .change-color-mid {
+                margin: 0;
+            }
+
+
+
+        }
+
+        /* Responsive-Code-End */
+    </style>
 </head>
 
 <body class="font-style">
-    <header>
+    <header class="hide">
         <!-- Nav-Start -->
         <nav id="nav">
             <div class="menu">
@@ -32,7 +91,8 @@
                         <h3>"In the near future, I hope to become a Developer."</h3>
                     </div>
                     <div class="banner-summary">
-                        <p class="summary">Developed and maintained websites for diverse clients ranging from small businesses to large corporations, ensuring high standards of quality and usability.</p>
+                        <p class="summary">Developed and maintained websites for diverse clients ranging from small
+                            businesses to large corporations, ensuring high standards of quality and usability.</p>
                     </div>
                     <div>
                         <a href="#bonus">
@@ -45,18 +105,20 @@
     </header>
     <main>
         <!-- Web-development-Section -->
-        <section id="web-development">
+        <section id="web-development" class="hide">
             <div class="development-container container">
                 <div class="web-tittle">
                     <h3 class="heading-tittle">Why Web Development??</h3>
-                    <p class="summary">Web development merges creativity with problem-solving, allowing me to create accessible solutions that impact users globally.</p>
+                    <p class="summary">Web development merges creativity with problem-solving, allowing me to create
+                        accessible solutions that impact users globally.</p>
                 </div>
                 <div class="all-items">
                     <!-- Item-one -->
                     <div class="item-box">
                         <div class="box-content">
                             <h4>I will Do Coding and Change The World</h4>
-                            <p>I thrive on continuous learning, innovation, and collaborating with diverse teams to deliver user-friendly experiences that push boundaries in technology and design.</p>
+                            <p>I thrive on continuous learning, innovation, and collaborating with diverse teams to
+                                deliver user-friendly experiences that push boundaries in technology and design.</p>
                             <div class="learn-btn">
                                 <a href="https://www.nextacademy.com/blog/12-ways-can-change-world-code/">Learn more</a>
                             </div>
@@ -72,7 +134,8 @@
                         </div>
                         <div class="box-content padding-right">
                             <h4>I will help People by creating Modern Web System</h4>
-                            <p>By using my valuable knowledge I will help people in creating modern and interesting web systems.</p>
+                            <p>By using my valuable knowledge I will help people in creating modern and interesting web
+                                systems.</p>
                             <div class="learn-btn">
                                 <a href="https://acropolium.com/blog/modern-web-app-architecture/">Learn more</a>
                             </div>
@@ -86,7 +149,9 @@
                             <p> I will do code and gonna change the world with my creativity and code knowledge.
                             </p>
                             <div class="learn-btn">
-                                <a href="https://www.byjusfutureschool.com/blog/how-coding-has-changed-the-world-for-the-better/">Learn more</a>
+                                <a
+                                    href="https://www.byjusfutureschool.com/blog/how-coding-has-changed-the-world-for-the-better/">Learn
+                                    more</a>
                             </div>
                         </div>
                         <div class="box-img">
@@ -100,7 +165,7 @@
         <!-- Web-development-Section -->
 
         <!-- My-Inspiration-Section -->
-        <section #my-inspiration>
+        <section id="my-inspiration" class="hide">
             <div class="inspiration-container container">
                 <div class="inspiration-tittle">
                     <h3 class="heading-tittle">My Inspiration</h3>
@@ -144,7 +209,8 @@
                             <img src="assets/css.png" alt="HTML-5">
                         </div>
                         <h3>CSS</h3>
-                        <p> CSS or Cascading Style Sheets,is a style sheet language used to describe the presentation of a document written in HTML.</p>
+                        <p> CSS or Cascading Style Sheets,is a style sheet language used to describe the presentation of
+                            a document written in HTML.</p>
                         <div class="target-btn">
                             <a href="https://cssprofile.collegeboard.org/">Learn more</a>
                         </div>
@@ -155,7 +221,8 @@
                             <img src="assets/js.png" alt="HTML-5">
                         </div>
                         <h3>JavaScript</h3>
-                        <p>JavaScript is a high-level, interpreted programming language primarily used to make web pages interactive and dynamic</p>
+                        <p>JavaScript is a high-level, interpreted programming language primarily used to make web pages
+                            interactive and dynamic</p>
                         <div class="target-btn">
                             <a href="https://www.javascript.com/">Learn more</a>
                         </div>
@@ -165,7 +232,7 @@
         </section>
         <!-- My-Current-Target-Section -->
     </main>
-    <footer>
+    <footer class="hide">
         <section id="bonus" class="footer-end">
             <div class="footer-container container">
                 <div class="footer-containt">
